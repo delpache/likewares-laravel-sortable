@@ -1,0 +1,50 @@
+{
+    "name": "likewares/laravel-sortable",
+    "description": "Package permettant de faire des tri pour Laravel",
+    "keywords": [
+        "laravel",
+        "sort",
+        "sortable",
+        "sorting",
+        "model",
+        "view",
+        "blade",
+        "column"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KOUAOBILE ASSANDE HUGUES",
+            "email": "assandehugues@gmail.com",
+            "homepage": "https://crm.likewares.com",
+            "role": "CEO Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1|^8.2|^8.3|^8.4",
+        "laravel/framework": "^9.0|^10.0|^11.0|^12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5|^10.0|^11.0|^12.0",
+        "orchestra/testbench": "^7.4|^8.0|^9.0|^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Likewares\\Sortable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Likewares\\Sortable\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Likewares\\Sortable\\Provider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
